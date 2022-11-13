@@ -1,4 +1,4 @@
-package src.Arrays;
+package src.Arrays.sliding;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -36,7 +36,7 @@ import java.util.Arrays;
  * Explanation 2:
  * There are no such subarray.
  * */
-public class SlidingMaxSumEqualSubarray {
+public class MaxSumEqualSubarray {
     public int solve(ArrayList<Integer> A, int B, int C) {
         int sumOfFirstSubArray = 0;
         for(int i=0; i<B; i++ ){
@@ -66,6 +66,6 @@ public class SlidingMaxSumEqualSubarray {
         Integer[] A = {6};
         int B = 1;
         int C = 6;
-        System.out.println(new SlidingMaxSumEqualSubarray().solve(new ArrayList<>(Arrays.asList(A)), B, C));
+        System.out.println(new MaxSumEqualSubarray().solve(new ArrayList<>(Arrays.asList(A)), B, C));
     }
 }

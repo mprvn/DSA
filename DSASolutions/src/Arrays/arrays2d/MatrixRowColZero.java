@@ -1,4 +1,4 @@
-package src.Arrays;
+package src.Arrays.arrays2d;
 
 import java.util.ArrayList;
 import java.util.Arrays;
