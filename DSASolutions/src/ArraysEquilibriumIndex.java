@@ -80,6 +80,7 @@ public int solve(ArrayList<Integer> A) {
     for(int j=1; j< A.size(); j++){
         preSum.add(j,(preSum.get(j-1) + A.get(j)));
     }
+
     for(int i=0 ; i< A.size(); i++) {
         int leftSum=0;
         int rightSum;
